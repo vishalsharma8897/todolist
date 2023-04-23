@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  min-height: 800px;
+  background: linear-gradient(25deg, rgb(180, 124, 223) 50%, rgb(215, 204, 223) 50%);
+  font-family: Helvetica, sans-serif;
+}
+
+#heading {
+  color: #fff;
+  background-color: rgb(180, 124, 223);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding: 10px;
+
+}
+
+.box {
+  text-align: center;
+  max-width: 350px;
+  margin: 0 auto;
+  border: 1px solid rgb(205, 182, 222);
+  border-radius: 10px;
+  background-color: #fff;
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #eee2e2;
+  min-height: 30px;
+  font-size: 20px;
+  font-family: 'Alkatra', cursive;
+}
+
+p {
+  margin: 5px 10px;
+  padding: 5px 10px;
+  font-weight: 200;
+  color: black;
+
+}
+
+input[type="checkbox"] {
+  margin: 10px;
+}
+
+input[type="checkbox"]:checked+p {
+  text-decoration: line-through;
+  text-decoration-color: rgb(180, 124, 223);
+}
+
+form {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #eee2e2;
+  min-height: 40px;
+}
+
+input[type="text"] {
+  margin: 10px;
+  border: none;
+  font-size: 25px;
+  text-align: center;
+  width: 240px;
+}
+
+input[type="text"]:focus {
+  background-color: yellow;
+  outline: none;
+}
+
+button {
+  border: 1px solid rgb(207, 199, 199);
+  background-color: rgb(180, 124, 223);
+  border-radius: 50%;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+::placeholder {
+  color: grey;
+  opacity: 1;
+}
+
+footer {
+  text-align: center;
+  color: rgb(71, 65, 65);
+  margin-top: 20px;
+}
+
+.intro {
+  padding:20px;
+  text-align: center;
+  font-family: 'Alkatra', cursive;
+  background-color: white;
+  max-width: 350px;
+  margin:40px auto;
+  border:2px solid rgb(156, 133, 133);
+  border-top-width:0;
+  border-left-width:0;
+}
